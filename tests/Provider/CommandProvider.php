@@ -14,6 +14,8 @@ use function array_merge;
 use function json_encode;
 use function serialize;
 
+use const JSON_THROW_ON_ERROR;
+
 final class CommandProvider extends \Yiisoft\Db\Tests\Provider\CommandProvider
 {
     public static function batchInsert(): array

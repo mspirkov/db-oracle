@@ -27,6 +27,9 @@ use Yiisoft\Db\Schema\Column\IntegerColumn;
 use Yiisoft\Db\Tests\Common\CommonQueryBuilderTest;
 use Yiisoft\Db\Tests\Support\Assert;
 
+use const SORT_ASC;
+use const SORT_DESC;
+
 /**
  * @group oracle
  */
