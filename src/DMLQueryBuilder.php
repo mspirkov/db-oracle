@@ -16,6 +16,7 @@ use function array_key_first;
 use function array_map;
 use function implode;
 use function count;
+use function is_array;
 
 /**
  * Implements a DML (Data Manipulation Language) SQL statements for Oracle Server.

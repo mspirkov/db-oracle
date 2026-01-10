@@ -28,6 +28,9 @@ use function str_pad;
 use function stream_get_contents;
 use function version_compare;
 
+use const JSON_THROW_ON_ERROR;
+use const STR_PAD_LEFT;
+
 /**
  * @group oracle
  */

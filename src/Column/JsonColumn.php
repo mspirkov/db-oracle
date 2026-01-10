@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Yiisoft\Db\Oracle\Column;
 
 use Yiisoft\Db\Schema\Column\AbstractJsonColumn;
+use JsonException;
 
 use function is_resource;
 use function is_string;
@@ -19,7 +20,7 @@ use const JSON_THROW_ON_ERROR;
 final class JsonColumn extends AbstractJsonColumn
 {
     /**
-     * @throws \JsonException
+     * @throws JsonException
      */
     public function phpTypecast(mixed $value): mixed
     {

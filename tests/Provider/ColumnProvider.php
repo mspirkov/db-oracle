@@ -14,6 +14,8 @@ use Yiisoft\Db\Oracle\Column\DateTimeColumn;
 use Yiisoft\Db\Oracle\Column\JsonColumn;
 use Yiisoft\Db\Tests\Support\Stringable;
 
+use function is_string;
+
 class ColumnProvider extends \Yiisoft\Db\Tests\Provider\ColumnProvider
 {
     public static function predefinedTypes(): array

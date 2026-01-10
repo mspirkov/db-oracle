@@ -26,6 +26,7 @@ use function array_map;
 use function in_array;
 use function preg_replace;
 use function strtolower;
+use function is_string;
 
 /**
  * Implements the Oracle Server specific schema, supporting Oracle Server 11C and above.
